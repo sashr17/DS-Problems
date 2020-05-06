@@ -4,7 +4,7 @@ function palindrome(str) {
     .reverse()
     .join("");
 
-  return str === reversed ? true : false;
+  return str === reversed;
 }
 
 module.exports = palindrome;
