@@ -6,6 +6,9 @@ const fizzbuzz = require("./fizzbuzz");
 const arrayChunks = require("./arrayChunks");
 const anagram = require("./anagram");
 const capitalize = require("./capitalize");
+const steps = require("./steps");
+const pyramid = require("./pyramid");
+const vowels = require("./vowels");
 
 console.log("********* Reverse String *******");
 console.log(reverse("apple"));
@@ -30,3 +33,12 @@ console.log(anagram("Hi There!", "there! hi!"));
 
 console.log("********* Sentence Capitalize *******");
 console.log(capitalize("hi there! how are you"));
+
+console.log("********* Steps *******");
+steps(4);
+
+console.log("********* Pyramid *******");
+pyramid(4);
+
+console.log("********* Vowels *******");
+console.log(vowels("hi there! how are you"));
