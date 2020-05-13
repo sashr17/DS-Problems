@@ -19,7 +19,7 @@ console.log("********* Reverse Integer *******");
 console.log(reverseInteger(-1));
 
 console.log("********* Palindrome *******");
-console.log(palindrome("aba"));
+console.log(palindrome("abba"));
 
 console.log("********* Max Chars *******");
 console.log(maxchars("abccbb 122222"));
