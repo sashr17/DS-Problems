@@ -9,6 +9,8 @@ const capitalize = require("./capitalize");
 const steps = require("./steps");
 const pyramid = require("./pyramid");
 const vowels = require("./vowels");
+const fibonacci = require("./fibonacci");
+const spiralMatrix = require("./spiralMatrix");
 
 console.log("********* Reverse String *******");
 console.log(reverse("apple"));
@@ -17,7 +19,7 @@ console.log("********* Reverse Integer *******");
 console.log(reverseInteger(-1));
 
 console.log("********* Palindrome *******");
-console.log(palindrome("aba"));
+console.log(palindrome("abba"));
 
 console.log("********* Max Chars *******");
 console.log(maxchars("abccbb 122222"));
@@ -42,3 +44,9 @@ pyramid(4);
 
 console.log("********* Vowels *******");
 console.log(vowels("hi there! how are you"));
+
+console.log("********* Fibonacci *******");
+console.log(fibonacci(7));
+
+console.log("********* Spiral Matrix *******");
+console.log(spiralMatrix(4));
